@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+#  Email Inbox UI - Next.js
 
-First, run the development server:
+A modern, responsive email inbox UI application built with Next.js, Shadcn/ui, Tailwind CSS, and TypeScript. This project demonstrates the ability to implement a clean, highly functional UI with seamless integration of powerful libraries and frameworks. The goal is to provide a polished, professional interface for managing email-like items, which is highly customizable and ready for further extensions.
+
+## Features
+
+- Responsive Design: Optimized for desktop views.
+- Interactive Email List: Simulated email inbox with hover effects (items are not clickable).
+- Mail List UI: Styled with Tailwind CSS and Shadcn/ui.
+- TypeScript Integration: Ensures type safety and enhances developer experience.
+
+## Tech Stack
+- Next.js
+- Shadcn/ui
+- Tailwind CSS
+- TypeScript
+
+## Setup
+
+### 1. Clone the Repository:
+
+```bash
+https://github.com/Subrata41/Mail-box-next.js.git
+cd Mail-box-next
+```
+
+### 2. Install Dependencies:
+
+```bash
+npm install
+
+```
+or
+
+```bash
+yarn install
+
+```
+
+### 3. Run the Development Server:
 
 ```bash
 npm run dev
-# or
+
+
+```
+or
+
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Visit http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Folder Structure 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- /app: Contains routing and page components.
+     - layout.tsx: Defines the root layout for the application.
+     - page.tsx: The main email inbox page.
 
-## Learn More
+- /components: Contains reusable UI components.
+    - Sidebar.tsx: Sidebar component for navigation.
+    - SidebarItem.tsx: Button component for each sidebar item.
+    - MailList.tsx: Component to display the list of emails.
+    - MailDetail.tsx: Component to show the details of a selected email.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Assumptions & Design Choices
+- Shadcn/ui Integration: Utilized Shadcn/ui for pre-styled components, eliminating the need for additional Tailwind CSS configurations.
+- Component-Based Architecture: Employed a modular structure with reusable components for scalability and maintainability.
+- Dynamic Routing: Implemented Next.js's App Router for efficient page management and dynamic content rendering.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Live Deployment
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
+
+
